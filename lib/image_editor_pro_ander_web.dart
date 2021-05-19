@@ -9,15 +9,15 @@ import 'package:flutter/services.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 
 /// A web implementation of the ImageEditorPro plugin.
-class ImageEditorProWeb {
+class ImageEditorProAnderWeb {
   static void registerWith(Registrar registrar) {
     final channel = MethodChannel(
-      'image_editor_pro',
+      'image_editor_pro_ander',
       const StandardMethodCodec(),
       registrar,
     );
 
-    final pluginInstance = ImageEditorProWeb();
+    final pluginInstance = ImageEditorProAnderWeb();
     channel.setMethodCallHandler(pluginInstance.handleMethodCall);
   }
 

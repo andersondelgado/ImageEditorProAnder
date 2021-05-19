@@ -3,7 +3,7 @@
 # Run `pod lib lint image_editor_pro.podspec' to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'image_editor_pro'
+  s.name             = 'image_editor_pro_ander'
   s.version          = '0.0.1'
   s.summary          = 'A new flutter plugin project.'
   s.description      = <<-DESC

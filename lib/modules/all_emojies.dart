@@ -1,5 +1,5 @@
 import 'package:firexcode/firexcode.dart';
-import 'package:image_editor_pro/data/data.dart';
+import 'package:image_editor_pro_ander/data/data.dart';
 
 class Emojies extends StatefulWidget {
   @override

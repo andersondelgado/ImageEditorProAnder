@@ -1,6 +1,6 @@
-name: image_editor_pro
+name: image_editor_pro_ander
 description: Image Editor Plugin with simple, easy support for image editing using paints,text and emoji like stories.
-version: 1.1.8
+version: 1.0.1
 homepage: https://github.com/andersondelgado/ImageEditorProAnder
 
 environment:
@@ -39,10 +39,10 @@ flutter:
   plugin:
     platforms:
       android:
-        package: zeeshux7860.update.image_editor_pro
-        pluginClass: ImageEditorProPlugin
+        package: ander.update.image_editor_pro_ander
+        pluginClass: ImageEditorProAnderPlugin
       ios:
-        pluginClass: ImageEditorProPlugin
+        pluginClass: ImageEditorProAnderPlugin
       linux:
         pluginClass: ImageEditorProPlugin
       macos:
@@ -50,8 +50,8 @@ flutter:
       windows:
         pluginClass: ImageEditorProPlugin        
       web:
-        pluginClass: ImageEditorProWeb
-        fileName: image_editor_pro_web.dart
+        pluginClass: ImageEditorProAnderWeb
+        fileName: image_editor_pro_ander_web.dart
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
   #  - images/a_dot_burr.jpeg

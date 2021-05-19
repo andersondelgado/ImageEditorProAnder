@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:image_editor_pro/image_editor_pro.dart';
+import 'package:image_editor_pro_ander/image_editor_pro_ander.dart';
 import 'package:firexcode/firexcode.dart';
 
 void main() {
@@ -23,10 +23,11 @@ class _HomePageState extends State<HomePage> {
 
   Future<void> getimageditor() =>
       Navigator.push(context, MaterialPageRoute(builder: (context) {
-        return ImageEditorPro(
+        return ImageEditorProAnder(
           appBarColor: Colors.black87,
           bottomBarColor: Colors.black87,
           pathSave: null,
+          file:null,
         );
       })).then((geteditimage) {
         if (geteditimage != null) {

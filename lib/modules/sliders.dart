@@ -1,6 +1,6 @@
 import 'package:firexcode/firexcode.dart';
 
-import '../image_editor_pro.dart';
+import '../image_editor_pro_ander.dart';
 import 'colors_picker.dart';
 
 class Sliders extends StatefulWidget {

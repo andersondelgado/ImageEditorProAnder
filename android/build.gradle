@@ -1,4 +1,4 @@
-group 'zeeshux7860.update.image_editor_pro'
+group 'ander.update.image_editor_pro_ander'
 version '1.0-SNAPSHOT'
 
 buildscript {

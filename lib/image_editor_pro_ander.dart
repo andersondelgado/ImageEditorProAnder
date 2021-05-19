@@ -7,13 +7,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_colorpicker/flutter_colorpicker.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:image_editor_pro/modules/sliders.dart';
+import 'package:image_editor_pro_ander/modules/sliders.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:image_editor_pro/modules/all_emojies.dart';
-import 'package:image_editor_pro/modules/bottombar_container.dart';
-import 'package:image_editor_pro/modules/emoji.dart';
-import 'package:image_editor_pro/modules/text.dart';
-import 'package:image_editor_pro/modules/textview.dart';
+import 'package:image_editor_pro_ander/modules/all_emojies.dart';
+import 'package:image_editor_pro_ander/modules/bottombar_container.dart';
+import 'package:image_editor_pro_ander/modules/emoji.dart';
+import 'package:image_editor_pro_ander/modules/text.dart';
+import 'package:image_editor_pro_ander/modules/textview.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:screenshot/screenshot.dart';
 import 'package:signature/signature.dart';
@@ -37,22 +37,22 @@ var opicity = 0.0;
 SignatureController _controller =
     SignatureController(penStrokeWidth: 5, penColor: Colors.green);
 
-class ImageEditorPro extends StatefulWidget {
+class ImageEditorProAnder extends StatefulWidget {
   final Color appBarColor;
   final Color bottomBarColor;
   final Directory pathSave;
   final double pixelRatio;
   final File file;
-  ImageEditorPro(
+  ImageEditorProAnder(
       {this.appBarColor, this.bottomBarColor, this.pathSave, this.pixelRatio, this.file});
 
   @override
-  _ImageEditorProState createState() => _ImageEditorProState();
+  _ImageEditorProAnderState createState() => _ImageEditorProAnderState();
 }
 
 var slider = 0.0;
 
-class _ImageEditorProState extends State<ImageEditorPro> {
+class _ImageEditorProAnderState extends State<ImageEditorProAnder> {
   // create some values
   Color pickerColor = Color(0xff443a49);
   Color currentColor = Color(0xff443a49);

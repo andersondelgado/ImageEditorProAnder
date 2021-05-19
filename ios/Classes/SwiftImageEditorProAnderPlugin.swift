@@ -1,10 +1,10 @@
 import Flutter
 import UIKit
 
-public class SwiftImageEditorProPlugin: NSObject, FlutterPlugin {
+public class SwiftImageEditorProAnderPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "image_editor_pro", binaryMessenger: registrar.messenger())
-    let instance = SwiftImageEditorProPlugin()
+    let channel = FlutterMethodChannel(name: "image_editor_pro_ander", binaryMessenger: registrar.messenger())
+    let instance = SwiftImageEditorProAnderPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 

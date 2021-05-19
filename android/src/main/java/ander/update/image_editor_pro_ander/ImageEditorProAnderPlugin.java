@@ -1,4 +1,4 @@
-package zeeshux7860.update.image_editor_pro;
+package ander.update.image_editor_pro_ander;
 
 import androidx.annotation.NonNull;
 
@@ -10,7 +10,7 @@ import io.flutter.plugin.common.MethodChannel.Result;
 import io.flutter.plugin.common.PluginRegistry.Registrar;
 
 /** ImageEditorProPlugin */
-public class ImageEditorProPlugin implements FlutterPlugin, MethodCallHandler {
+public class ImageEditorProAnderPlugin implements FlutterPlugin, MethodCallHandler {
   /// The MethodChannel that will the communication between Flutter and native Android
   ///
   /// This local reference serves to register the plugin with the Flutter Engine and unregister it
@@ -19,7 +19,7 @@ public class ImageEditorProPlugin implements FlutterPlugin, MethodCallHandler {
 
   @Override
   public void onAttachedToEngine(@NonNull FlutterPluginBinding flutterPluginBinding) {
-    channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "image_editor_pro");
+    channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "image_editor_pro_ander");
     channel.setMethodCallHandler(this);
   }
 
