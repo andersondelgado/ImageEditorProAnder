@@ -1,6 +1,6 @@
 name: image_editor_pro_ander
 description: Image Editor Plugin with simple, easy support for image editing using paints,text and emoji like stories.
-version: 1.0.1
+version: 1.0.0
 homepage: https://github.com/andersondelgado/ImageEditorProAnder
 
 environment:
