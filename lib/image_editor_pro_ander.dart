@@ -86,7 +86,7 @@ class _ImageEditorProAnderState extends State<ImageEditorProAnder> {
       //_image=widget.file;
       setState((){
         _image=widget.file;
-      })
+      });
     });
   }
 
