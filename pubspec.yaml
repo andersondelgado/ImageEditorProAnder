@@ -42,13 +42,7 @@ flutter:
         package: ander.update.image_editor_pro_ander
         pluginClass: ImageEditorProAnderPlugin
       ios:
-        pluginClass: ImageEditorProAnderPlugin
-      linux:
-        pluginClass: ImageEditorProPlugin
-      macos:
-        pluginClass: ImageEditorProPlugin
-      windows:
-        pluginClass: ImageEditorProPlugin        
+        pluginClass: ImageEditorProAnderPlugin       
       web:
         pluginClass: ImageEditorProAnderWeb
         fileName: image_editor_pro_ander_web.dart
