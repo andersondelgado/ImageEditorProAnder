@@ -44,7 +44,11 @@ class ImageEditorProAnder extends StatefulWidget {
   final double pixelRatio;
   final File file;
   ImageEditorProAnder(
-      {this.appBarColor, this.bottomBarColor, this.pathSave, this.pixelRatio, this.file});
+      {this.appBarColor,
+      this.bottomBarColor,
+      this.pathSave,
+      this.pixelRatio,
+      this.file});
 
   @override
   _ImageEditorProAnderState createState() => _ImageEditorProAnderState();
@@ -85,10 +89,12 @@ class _ImageEditorProAnderState extends State<ImageEditorProAnder> {
       timeprediction = tim;
       //_image=widget.file;
 
-      setState((){
-        _image=widget.file;
+      setState(() {
+        // _image=widget.file;
+        if (widget.file != null) {
+          _image = widget.file;
+        }
       });
-      
     });
   }
 
