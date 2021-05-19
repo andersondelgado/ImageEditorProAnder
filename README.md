@@ -9,12 +9,12 @@ To start with this, we need to simply add the dependencies in the gradle file of
 
 ## Installation
 
-First, add `image_editor_pro:` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
+First, add `image_editor_pro_ander:` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 Import
 
 ```dart
-import 'package:image_editor_pro/image_editor_pro.dart';
+import 'package:image_editor_pro_ander/image_editor_pro_ander.dart';
 ```
 
 ### iOS
@@ -40,15 +40,16 @@ Or in text format add the key:
 
 No configuration required - the plugin should work out of the box.
 
-Add this function to Your StateFull Widget Check the [Example](https://github.com/zeeshux7860/Image_editor_pro_package/blob/master/example/lib/main.dart)
+Add this function to Your StateFull Widget Check the [Example](https://github.com/andersondelgado/Image_editor_pro_ander_package/blob/master/example/lib/main.dart)
 
 ```dart
  Future<void> getimageditor()  {
     final geteditimage =   Navigator.push(context, MaterialPageRoute(
         builder: (context){
-          return ImageEditorPro(
+          return ImageEditorProAnder(
             appBarColor: Colors.blue,
             bottomBarColor: Colors.blue,
+            file:null
           );
         }
     )).then((geteditimage){
@@ -63,7 +64,7 @@ Add this function to Your StateFull Widget Check the [Example](https://github.co
 ```
 
 ## Developed By
-- [Zeeshan](https://www.linkedin.com/in/zeeshu-x-5190b41a1/)
+- [Zeeshan](https://www.linkedin.com/in/anderson-delgado-207581120/)
 
 ## Special Thanks
 Sanskar Tiwari
