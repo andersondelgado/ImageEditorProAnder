@@ -84,9 +84,11 @@ class _ImageEditorProAnderState extends State<ImageEditorProAnder> {
       setState(() {});
       timeprediction = tim;
       //_image=widget.file;
+
       setState((){
         _image=widget.file;
       });
+      
     });
   }
 
